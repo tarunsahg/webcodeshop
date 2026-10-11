@@ -1,0 +1,20 @@
+{
+  "name": "webcodeshop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebCodeShop \u2014 premium code, scripts & gift cards marketplace built with Next.js 14 + SQLite",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:reset": "node -e \"require('fs').rmSync('./data/webcodeshop.db',{force:true});console.log('DB reset')\""
+  },
+  "dependencies": {
+    "better-sqlite3": "11.3.0",
+    "nodemailer": "6.9.14",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
